@@ -20,7 +20,7 @@ export const Api = {
   fetchUser: () =>
     new Promise((resolve, reject) => {
       setTimeout(() => {
-        const users =  JSON.parse(localStorage.getItem('users') || []);
+        const users =  JSON.parse(localStorage.getItem('users') || "[]");
         resolve(users);
       }, 300)
     })
