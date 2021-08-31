@@ -1,0 +1,2 @@
+export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+export const LOADING_USERS = 'LOADING_USERS';
